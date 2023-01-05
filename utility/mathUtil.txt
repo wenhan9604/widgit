@@ -1,1 +1,6 @@
-public static void MathFunc1 arg1 {} 
+/// Adds 5 to the input everytime this func is called
+public static int MathFunc1 int arg1 {
+int numb1 = 5; 
+arg1 += numb1;
+return arg1;
+}
